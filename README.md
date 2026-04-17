@@ -1,5 +1,9 @@
-# 🚀 NetSense AI
 
+<p align="center">
+  <img src="LoGo.png" width="250" alt="NetSense AI Logo">
+</p>
+
+ ## <h1> 🤖 NetSense AI </h1>
 ### Automated WiFi Experience Analyzer
 
 ---
