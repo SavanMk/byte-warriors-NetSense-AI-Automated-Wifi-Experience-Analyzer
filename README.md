@@ -2,8 +2,8 @@
 <p align="center">
   <img src="LoGo.png" width="250" alt="NetSense AI Logo">
 </p>
+<h1> 🤖 NetSense AI </h1>
 
- ## <h1> 🤖 NetSense AI </h1>
 ### Automated WiFi Experience Analyzer
 
 ---
@@ -12,7 +12,9 @@
 
 **NetSense AI** is a smart network monitoring tool that analyzes your internet performance in real-time. It measures key metrics like **latency, download speed, and upload speed**, and presents them in a clean, modern dashboard UI.
 
-This project is designed as a foundation for building **AI-powered network diagnostics and automation systems**.
+
+## 🚀 **Day 2 Update:**
+The project now connects backend and frontend, displaying **real-time network data directly in the web UI** instead of static values.
 
 ---
 
@@ -20,9 +22,11 @@ This project is designed as a foundation for building **AI-powered network diagn
 
 * 📡 **Ping Test** – Measures network latency and stability
 * ⚡ **Speed Test** – Calculates download & upload speed
-* 🧠 **AI-Ready Architecture** – Built to integrate recommendations & automation
-* 🎨 **Modern UI** – Glassmorphism dashboard with glowing effects
-* 💻 **Cross-Platform** – Works on any system with Python installed
+* 🌐 **Real-Time Dashboard** – Live data shown in browser
+* 🔄 **Auto Refresh** – Updates data every few seconds
+* 🎯 **Smooth Animations** – Dynamic number transitions
+* 🎨 **Modern UI** – Glassmorphism dashboard with glow effects
+* 🧠 **AI-Ready Architecture** – Ready for future intelligence layer
 
 ---
 
@@ -33,41 +37,48 @@ This project is designed as a foundation for building **AI-powered network diagn
 * Python
 * `subprocess` (for ping execution)
 * `speedtest-cli` (for internet speed testing)
+* `json` (for data storage & transfer)
 
 ### 🔹 Frontend
 
 * HTML5
 * CSS3 (Glassmorphism + Gradient UI)
+* JavaScript (Fetch API + DOM Manipulation)
 
 ---
 
+ #  frontend/metrics.json
+   
 
-👉 This will:
+## 📊 Sample Output (metrics.json)
 
-* Perform ping test
-* Run speed test
-* Display results in terminal
+```json id="jsonsample"
+{
+  "status": "success",
+  "timestamp": "2026-04-18 17:55:02",
+  "download": 193.47,
+  "upload": 10.21,
+  "ping": 36.69
+}
+```
 
 ---
 
-### 🔹 Run python scripts
+## 🎯 Day 2 Highlights
 
-## 📊 Sample Output
-
-```
-Download: 120 Mbps  
-Upload: 30 Mbps  
-Latency: 20 ms  
-```
+* Connected backend → frontend using JSON
+* Implemented real-time UI updates
+* Solved browser CORS issues using local server
+* Built complete data pipeline
 
 ---
 
 ## 🚀 Future Enhancements
 
-* 📁 Save results to JSON
-* 🔗 Connect backend with frontend (real-time data)
+* 🔗 Replace JSON with Flask API (Day 3)
+* 📊 Add real-time graphs
 * 🤖 AI-based network issue detection
-* ⚙️ Automated fixes (restart adapter, suggest changes)
+* ⚙️ Automated fixes (restart adapter, suggestions)
 * 💬 Chatbot for troubleshooting
 
 ---
@@ -83,6 +94,16 @@ Latency: 20 ms
 ## 👨‍💻👨‍💻 Authors
 
 Developed as part of a hands-on project to build real-world networking and system-level development skills.
+
+---
+
+## ✅ Day 2 Status
+
+ ✔ Backend Connected
+ <br>
+ ✔ Real Data in UI
+ <br>
+ ✔ Dynamic Dashboard Working
 
 
 
